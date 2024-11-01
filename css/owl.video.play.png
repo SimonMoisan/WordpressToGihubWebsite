@@ -31,6 +31,8 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 	}
 </style>
 <link rel='stylesheet' id='wp-block-library-css' href='http://localhost/portfolio-gamedev/wordpress/wp-includes/css/dist/block-library/style.min.css?ver=6.6.2' type='text/css' media='all' />
+<link rel='stylesheet' id='bp3d-custom-style-css' href='http://localhost/portfolio-gamedev/wordpress/wp-content/plugins/3d-viewer/public/css/custom-style.css?ver=1730402793' type='text/css' media='all' />
+<link rel='stylesheet' id='bp3d-public-css' href='http://localhost/portfolio-gamedev/wordpress/wp-content/plugins/3d-viewer/dist/public.css?ver=1730402793' type='text/css' media='all' />
 <style id='classic-theme-styles-inline-css' type='text/css'>
 /*! This file is auto-generated */
 .wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
@@ -42,6 +44,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 :root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
 </style>
 <link rel='stylesheet' id='cmplz-general-css' href='http://localhost/portfolio-gamedev/wordpress/wp-content/plugins/complianz-gdpr/assets/css/cookieblocker.min.css?ver=6.5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='hfe-style-css' href='http://localhost/portfolio-gamedev/wordpress/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=1.6.15' type='text/css' media='all' />
 <link rel='stylesheet' id='elementor-icons-css' href='http://localhost/portfolio-gamedev/wordpress/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.21.0' type='text/css' media='all' />
 <link rel='stylesheet' id='elementor-frontend-css' href='http://localhost/portfolio-gamedev/wordpress/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.15.1' type='text/css' media='all' />
 <link rel='stylesheet' id='swiper-css' href='http://localhost/portfolio-gamedev/wordpress/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5' type='text/css' media='all' />
@@ -49,7 +52,6 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 <link rel='stylesheet' id='font-awesome-5-all-css' href='http://localhost/portfolio-gamedev/wordpress/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=3.15.1' type='text/css' media='all' />
 <link rel='stylesheet' id='font-awesome-4-shim-css' href='http://localhost/portfolio-gamedev/wordpress/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.15.1' type='text/css' media='all' />
 <link rel='stylesheet' id='elementor-global-css' href='http://localhost/portfolio-gamedev/wordpress/wp-content/uploads/elementor/css/global.css?ver=1729199145' type='text/css' media='all' />
-<link rel='stylesheet' id='hfe-style-css' href='http://localhost/portfolio-gamedev/wordpress/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=1.6.15' type='text/css' media='all' />
 <link rel='stylesheet' id='owl-theme-default-css' href='http://localhost/portfolio-gamedev/wordpress/wp-content/themes/perfect-portfolio/css/owl.theme.default.min.css?ver=2.2.1' type='text/css' media='all' />
 <link rel='stylesheet' id='owl-carousel-css' href='http://localhost/portfolio-gamedev/wordpress/wp-content/themes/perfect-portfolio/css/owl.carousel.min.css?ver=2.2.1' type='text/css' media='all' />
 <link rel='stylesheet' id='perfect-portfolio-google-fonts-css' href='https://fonts.googleapis.com/css?family=Poppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic' type='text/css' media='all' />
@@ -63,7 +65,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
             /* <![CDATA[ */
             var rcewpp = {
                 "ajax_url":"http://localhost/portfolio-gamedev/wordpress/wp-admin/admin-ajax.php",
-                "nonce": "4cb5334618",
+                "nonce": "7abfb0964c",
                 "home_url": "http://localhost/portfolio-gamedev/wordpress/",
                 "settings_icon": 'http://localhost/portfolio-gamedev/wordpress/wp-content/plugins/export-wp-page-to-static-html/admin/images/settings.png',
                 "settings_hover_icon": 'http://localhost/portfolio-gamedev/wordpress/wp-content/plugins/export-wp-page-to-static-html/admin/images/settings_hover.png'
@@ -337,7 +339,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 					<div id="cmplz-manage-consent" data-nosnippet="true"></div><script type="text/javascript" id="essential-blocks-blocks-localize-js-extra">
 /* <![CDATA[ */
 var eb_conditional_localize = {"editor_type":""};
-var EssentialBlocksLocalize = {"eb_plugins_url":"http:\/\/localhost\/portfolio-gamedev\/wordpress\/wp-content\/plugins\/essential-blocks\/","eb_wp_version":"6.6","eb_version":"4.1.5","eb_admin_url":"http:\/\/localhost\/portfolio-gamedev\/wordpress\/wp-admin\/","rest_rootURL":"http:\/\/localhost\/portfolio-gamedev\/wordpress\/wp-json\/","ajax_url":"http:\/\/localhost\/portfolio-gamedev\/wordpress\/wp-admin\/admin-ajax.php","nft_nonce":"0ef4bdaa7e","placeholder_image":"http:\/\/localhost\/portfolio-gamedev\/wordpress\/wp-content\/plugins\/essential-blocks\/assets\/images\/placeholder.png","is_pro_active":"false","upgrade_pro_url":"https:\/\/essential-blocks.com\/upgrade"};
+var EssentialBlocksLocalize = {"eb_plugins_url":"http:\/\/localhost\/portfolio-gamedev\/wordpress\/wp-content\/plugins\/essential-blocks\/","eb_wp_version":"6.6","eb_version":"4.1.5","eb_admin_url":"http:\/\/localhost\/portfolio-gamedev\/wordpress\/wp-admin\/","rest_rootURL":"http:\/\/localhost\/portfolio-gamedev\/wordpress\/wp-json\/","ajax_url":"http:\/\/localhost\/portfolio-gamedev\/wordpress\/wp-admin\/admin-ajax.php","nft_nonce":"39c14d116e","placeholder_image":"http:\/\/localhost\/portfolio-gamedev\/wordpress\/wp-content\/plugins\/essential-blocks\/assets\/images\/placeholder.png","is_pro_active":"false","upgrade_pro_url":"https:\/\/essential-blocks.com\/upgrade"};
 /* ]]> */
 </script>
 <script type="text/javascript" src="http://localhost/portfolio-gamedev/wordpress/wp-content/plugins/essential-blocks/assets/js/eb-blocks-localize.js?ver=4.1.5" id="essential-blocks-blocks-localize-js"></script>
@@ -359,7 +361,7 @@ var perfect_portfolio_data = {"rtl":"","ajax_url":"http:\/\/localhost\/portfolio
 <script type="text/javascript" src="http://localhost/portfolio-gamedev/wordpress/wp-content/themes/perfect-portfolio/js/custom.min.js?ver=1.2.0" id="perfect-portfolio-custom-js"></script>
 <script type="text/javascript" id="eael-general-js-extra">
 /* <![CDATA[ */
-var localize = {"ajaxurl":"http:\/\/localhost\/portfolio-gamedev\/wordpress\/wp-admin\/admin-ajax.php","nonce":"7c94b5ff4e","i18n":{"added":"Added ","compare":"Compare","loading":"Loading..."},"eael_translate_text":{"required_text":"is a required field","invalid_text":"Invalid","billing_text":"Billing","shipping_text":"Shipping","fg_mfp_counter_text":"of"},"page_permalink":"","cart_redirectition":"","cart_page_url":"","el_breakpoints":{"mobile":{"label":"Portrait mobile","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Paysage","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablette en mode portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablette en mode paysage","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Portable","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"\u00c9cran large","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}};
+var localize = {"ajaxurl":"http:\/\/localhost\/portfolio-gamedev\/wordpress\/wp-admin\/admin-ajax.php","nonce":"e442879756","i18n":{"added":"Added ","compare":"Compare","loading":"Loading..."},"eael_translate_text":{"required_text":"is a required field","invalid_text":"Invalid","billing_text":"Billing","shipping_text":"Shipping","fg_mfp_counter_text":"of"},"page_permalink":"","cart_redirectition":"","cart_page_url":"","el_breakpoints":{"mobile":{"label":"Portrait mobile","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Paysage","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablette en mode portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablette en mode paysage","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Portable","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"\u00c9cran large","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}};
 /* ]]> */
 </script>
 <script type="text/javascript" src="http://localhost/portfolio-gamedev/wordpress/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/general.min.js?ver=5.8.5" id="eael-general-js"></script>
